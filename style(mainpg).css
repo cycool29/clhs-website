@@ -63,7 +63,7 @@
     background-color: white;
     overflow-x: hidden;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     transition: 0.5s;
     height: fit-content;
 }
