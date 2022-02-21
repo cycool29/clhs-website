@@ -1,6 +1,6 @@
 navbar = document.getElementById("top-nav-bar");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 20px from the top of the document, change navbar color
 window.onscroll = function() {
     changeColor()
 };
