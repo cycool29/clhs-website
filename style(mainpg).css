@@ -89,6 +89,7 @@
     color: white;
     padding: 10px 15px;
     border: none;
+    margin: none;
 }
 
 .openbtn:hover {
@@ -161,7 +162,6 @@
 
 @keyframes slideleft {
     0% {
-        transform: translate(100px);
         opacity: 0;
     }
     100% {
