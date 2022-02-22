@@ -162,12 +162,26 @@
 
 @keyframes slideleft {
     0% {
+        transform: translate(100px);
         opacity: 0;
     }
     100% {
         transform: translate(0px);
         opacity: 1;
     }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadein 1.5s;
 }
 
 .slide-left .learn-more-btn {
@@ -222,7 +236,7 @@
 }
 
 
-#location.slide-left {
+#location.fade-in {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
