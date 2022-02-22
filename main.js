@@ -55,5 +55,4 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
 function gotoLocation() {   
     closeNav()
     document.getElementById("location").style.display = "inherit";
-    window.location.href="#location";
 }
