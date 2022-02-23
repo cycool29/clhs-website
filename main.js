@@ -9,10 +9,19 @@ window.onscroll = function () {
             closeNav()
             document.getElementById("location").style.display = "inherit";
         }
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            closeNav()
+            document.getElementById("history").style.display = "inherit";
+        }
+
     } else {
         if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
             closeNav()
             document.getElementById("location").style.display = "inherit";
+        }
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+            closeNav()
+            document.getElementById("history").style.display = "inherit";
         }
     }
 
