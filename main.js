@@ -74,7 +74,7 @@ function gotoHistory() {
 
 var image = new Image();
 image.onload = function () {
-        $(".header").css("visibility", "visible");
+        $(".header").css("display", "block");
 }
 
 image.src = "https://cycool29.github.io/clhs-website/background.jpg"; 
