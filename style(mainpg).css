@@ -51,10 +51,9 @@
 
 .nav-bar:hover {
     /* backdrop-filter: blur(10px); */
-    background-color: white !important;
+    background-color: #919191 !important;
     color: black !important;
 }
-
 
 /* Menu */
 
@@ -110,7 +109,7 @@
 
 .link:after {
     color: grey;
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -224,7 +223,6 @@
     cursor: pointer;
 }
 
-
 /*----Location-----*/
 
 #location {
@@ -232,9 +230,8 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    transform: translateY(-.5rem);
+    transform: translateY(-0.5rem);
 }
-
 
 #location.fade-in {
     -webkit-transition: 0.3s;
@@ -262,8 +259,15 @@
     padding: 10px;
 }
 
-
 /*----History----*/
+
+#history {
+    display: none;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transform: translateY(-0.5rem);
+}
 
 .history {
     width: 80%;
