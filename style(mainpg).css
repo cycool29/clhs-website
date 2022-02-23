@@ -7,6 +7,7 @@
 }
 
 .header {
+    visibility: hidden;
     height: 105vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.jpg);
     background-position: center;
@@ -15,6 +16,9 @@
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 #top-nav-bar {
@@ -181,6 +185,10 @@
 
 .fade-in {
     animation: fadein 5s;
+}
+
+.fade-in-fast {
+    animation: fadein 2s;
 }
 
 .slide-left .learn-more-btn {

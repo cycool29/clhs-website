@@ -71,3 +71,10 @@ function gotoHistory() {
     document.getElementById("location").style.display = "inherit";
     document.getElementById("history").style.display = "inherit";
 }
+
+var image = new Image();
+image.onload = function () {
+        $(".header").css("visibility", "visible");
+}
+
+image.src = "https://cycool29.github.io/clhs-website/background.jpg"; 
