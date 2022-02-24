@@ -43,12 +43,11 @@ function changeColor() {
     navbar = document.getElementById("top-nav-bar");
 
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        // navbar.style.backdropFilter = `blur(10px)`;
-        navbar.style.backgroundColor = "#919191";
+        navbar.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
         navbar.style.color = "black";
     } else {
         navbar.style.backgroundColor = "transparent";
-        // navbar.style.backdropFilter = ``;
+        navbar.style.backdropFilter = ``;
         navbar.style.color = "white";
     }
 }
@@ -74,7 +73,7 @@ function gotoHistory() {
 
 var image = new Image();
 image.onload = function () {
-        $(".header").css("display", "block");
+    $(".header").css("display", "block");
 }
 
 image.src = "https://cycool29.github.io/clhs-website/background.jpg"; 

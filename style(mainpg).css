@@ -54,8 +54,7 @@
 }
 
 .nav-bar:hover {
-    /* backdrop-filter: blur(10px); */
-    background-color: #919191 !important;
+    background-color: white !important;
     color: black !important;
 }
 
@@ -229,6 +228,10 @@
     color: grey;
     border: 2px solid grey;
     cursor: pointer;
+}
+
+#google_translate_element {
+    padding-left: 10%;
 }
 
 /*----Location-----*/
